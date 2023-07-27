@@ -37,8 +37,15 @@
                             <p class="hero-paragraph">Seamlessly transfer money between the accounts you have at
                                 different banks without going to an ATM or executing multiple transfers using payment
                                 apps.</p>
-                            <div class="hero-cta"><a class="button button-primary" href="#">Sign Up Now</a><a
-                                    class="button" href="#">Get in touch</a></div>
+                            <div class="hero-cta"><button onclick="scrollToElement()" class="button button-primary" href="">Sign Up Now</button>
+                            <script>
+                                function scrollToElement() {
+                                    var elmnt = document.getElementById("pricing-table");
+                                    elmnt.scrollIntoView({behavior:'smooth', block:'start'});
+                                }
+                            </script>
+                                <button class="button" href="#">Get in touch</button>
+                            </div>
                         </div>
                         <div class="hero-figure anime-element">
                             <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
@@ -69,7 +76,8 @@
                                         <img src="dist/images/feature-icon-01.svg" alt="Feature 01">
                                     </div>
                                     <h4 class="feature-title mt-24">Unlimited transfers</h4>
-                                    <p class="text-sm mb-0">Transfer money as many times as you want. No limits on the number 
+                                    <p class="text-sm mb-0">Transfer money as many times as you want. No limits on the
+                                        number
                                         of transfers per month.
                                     </p>
                                 </div>
@@ -80,7 +88,8 @@
                                         <img src="dist/images/feature-icon-02.svg" alt="Feature 02">
                                     </div>
                                     <h4 class="feature-title mt-24">Unlimited bank accounts</h4>
-                                    <p class="text-sm mb-0">Add as many bank accounts as you have and move money between them
+                                    <p class="text-sm mb-0">Add as many bank accounts as you have and move money between
+                                        them
                                         without any hassles.</p>
                                 </div>
                             </div>
@@ -92,7 +101,8 @@
                                         <img src="dist/images/feature-icon-03.svg" alt="Feature 03">
                                     </div>
                                     <h4 class="feature-title mt-24">Instant transfers up to $500</h4>
-                                    <p class="text-sm mb-0">Start a transfer of up to $500 from one account and see the balance 
+                                    <p class="text-sm mb-0">Start a transfer of up to $500 from one account and see the
+                                        balance
                                         credited to your other account right away.</p>
                                 </div>
                             </div>
@@ -102,7 +112,8 @@
                                         <img src="dist/images/feature-icon-04.svg" alt="Feature 04">
                                     </div>
                                     <h4 class="feature-title mt-24">Guaranteed protection</h4>
-                                    <p class="text-sm mb-0">We provide multi-factor authentication on all accounts to protect your 
+                                    <p class="text-sm mb-0">We provide multi-factor authentication on all accounts to
+                                        protect your
                                         account from unauthorized activity.</p>
                                 </div>
                             </div>
@@ -116,9 +127,10 @@
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
                             <h2 class="section-title mt-0">Be the first to know</h2>
-                            <p class="section-paragraph mb-0">Sign up today to get early access to the app when it's ready.</p>
+                            <p class="section-paragraph mb-0">Sign up today to get early access to the app when it's
+                                ready.</p>
                         </div>
-                        <div class="pricing-tables-wrap">
+                        <div id="pricing-table" class="pricing-tables-wrap">
                             <div class="pricing-table">
                                 <div class="pricing-table-inner is-revealing">
                                     <div class="pricing-table-main">
@@ -187,15 +199,15 @@
             </section>
 
             <section class="cta section">
-				<div class="container">
-					<div class="cta-inner section-inner">
-						<h3 class="section-title mt-0">Still not convinced?</h3>
-						<div class="cta-cta">
-							<a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
-						</div>
-					</div>
-				</div>
-			</section>
+                <div class="container">
+                    <div class="cta-inner section-inner">
+                        <h3 class="section-title mt-0">Still not convinced?</h3>
+                        <div class="cta-cta">
+                            <a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <footer class="site-footer">

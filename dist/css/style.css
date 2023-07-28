@@ -1320,6 +1320,10 @@ label {
     align-items: center
 }
 
+.header-brand {
+    max-width: 200px;
+}
+
 .header-links {
     display: inline-flex
 }

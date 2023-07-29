@@ -1395,6 +1395,13 @@ label {
     background-size: 100%
 }
 
+.app-store-logos {
+    display: inline-flex;
+}
+.app-store-logo {
+    max-width: 150px;
+}
+
 .has-animations .hero-figure::before,
 .has-animations .hero-figure::after {
     opacity: 0;
@@ -1902,7 +1909,7 @@ main {
 
 .site-footer-inner {
     position: relative;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     padding-top: 48px;
     padding-bottom: 48px
@@ -1914,7 +1921,7 @@ main {
 .footer-copyright {
     flex: none;
     width: 100%;
-    display: inline-flex;
+    display: block;
     justify-content: center
 }
 

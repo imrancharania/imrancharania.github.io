@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AFFNTI | Conversational Search for eCommerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="company">
+            <h1 class="logo">
+                affnti
+            </h1>
+        </div>
+        <div class="nav">
+            <a class="contact" href="mailto:icharania04@gmail.com">Contact Us</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1 class="headline">
+            Conversational Search for eCommerce
+        </h1>
+        <p class="description">
+            Traditional search is cold, transactional, and lacks context. Build real, lasting
+            relationships with your customers by helping them find what they're really looking for
+            through the warmth of natural, human language.
+        </p>
+    </div>
+    <div class="waitlist">
+        <p class="cta">
+            Get notified when you can use Affnti:
+        </p>
+        <p>
+        <form id="contact-form" onsubmit="return postToGoogle();">
+            <input name="entry.2042799272" data-name="Email" id="Email" class="cta-input" placeholder="Your e-mail address" type="email" required
+                oninvalid="this.setCustomValidity('Please enter a valid e-mail address')">
+            <input type="hidden" name="redirect" value="thanks.html">
+            <button class="cta-submit" type="submit"><span>Let me know!</span></button>
+        </form>
+        </p>
+    </div>
+</body>
+
+</html>

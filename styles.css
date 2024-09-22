@@ -82,7 +82,7 @@ html {
     margin-left: 1%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    background: #fabf1f;
+    background: #4bfa1f;
     border-radius: 4px;
     border-style: none;
     height: 46px;
@@ -111,7 +111,7 @@ html {
 .cta-submit:active {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    background: #fabf1f;
+    background: #4bfa1f;
     color: #1e1e1e;
     border-radius: 4px;
     border-style: none;
@@ -129,7 +129,7 @@ html {
 }
 
 .contact:hover {
-    color: #fabf1f;
+    color: #4bfa1f;
     text-decoration: none;
 }
 
